@@ -39,13 +39,13 @@ int main(void)
         switch(wybor)
         {
             case '+': wynik = liczba1 + liczba2;
-            break;
+                break;
             case '-': wynik = liczba1 - liczba2;
-            break;
+                break;
             case '*': wynik = liczba1 * liczba2;
-            break;
+                break;
             case '/': wynik = liczba1 / liczba2;
-            break;
+                break;
             default: printf("Podales niepoprawny typ dzialania.\n");
         }
         printf("Wynik: %Lf %c %Lf = %Lf\n\n",liczba1, wybor, liczba2, wynik);
